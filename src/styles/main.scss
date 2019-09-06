@@ -1,0 +1,24 @@
+@font-face  {
+    font-family: "Geometria"; 
+   src: url("/fonts/Geometria.ttf");
+   font-family: "Source Serif Roman - Semibold";
+   font-weight: 400;
+}
+@font-face  {
+   src: url("/fonts/SourceSerifPro-SemiBold.ttf");
+   font-family: "Source Serif Roman - Semibold";
+   font-weight: 400;
+}
+@font-face  {
+   src: url("/fonts/SourceSerifPro-Regular.ttf");
+   font-family: "Source Serif Roman - Regular";
+      font-weight: 400;
+}
+@font-face  {
+    font-family: "Geometria"; 
+   src: url("/fonts/Geometria.ttf");
+   font-family: "Source Serif Roman - Semibold";
+   font-weight: 400;
+}
+@import "norm.css";
+@import "main-page.scss";
