@@ -20,9 +20,13 @@
   font-family: "Source Serif Roman - Light";
   font-weight: 400; }
 
+.container {
+  margin: 0 auto; }
+
 .main-page {
   min-width: 320px;
   min-height: 480px;
+  box-sizing: border-box;
   background: rgba(0, 0, 0, 0.4) url("/img/320_main_bg.jpg") bottom no-repeat; }
 
 .main-nav {
@@ -116,3 +120,46 @@
 
 .socials {
   display: none; }
+
+.portfolio {
+  min-width: 320px;
+  box-sizing: border-box;
+  padding: 0 15px; }
+
+.section__title {
+  color: #212021;
+  font-family: "Source Serif Roman - Semibold";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2.75px;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.portfolio__photos {
+  display: flex;
+  flex-direction: column; }
+
+.portfolio__photo {
+  width: 290px;
+  margin-bottom: 65px; }
+
+.photo__tags {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+.photo__tag {
+  display: inline-block;
+  color: #1d1c1c;
+  font-family: "Source Serif Roman";
+  font-size: 12px;
+  font-weight: 300; }
+
+.photo__desc {
+  color: #1d1c1c;
+  font-family: "Source Serif Roman";
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0; }

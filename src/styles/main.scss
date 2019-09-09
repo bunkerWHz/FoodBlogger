@@ -19,6 +19,9 @@
    font-family: "Source Serif Roman - Light";
    font-weight: 400;
 }
-
+.container {
+   margin: 0 auto;
+}
 @import "norm.css";
 @import "main-page.scss";
+@import "portfolio.scss";
