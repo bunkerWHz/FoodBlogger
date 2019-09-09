@@ -1,8 +1,7 @@
 @import url(norm.css);
 @font-face {
-  font-family: "Geometria";
-  src: url("/fonts/Geometria.ttf");
-  font-family: "Source Serif Roman - Semibold";
+  src: url("/fonts/SourceSerifPro-Bold.ttf");
+  font-family: "Source Serif Roman - Bold";
   font-weight: 400; }
 
 @font-face {
@@ -17,6 +16,6 @@
 
 @font-face {
   font-family: "Geometria";
-  src: url("/fonts/Geometria.ttf");
-  font-family: "Source Serif Roman - Semibold";
+  src: url("/fonts/Source Serif Pro ExtraLight.otf");
+  font-family: "Source Serif Roman - Light";
   font-weight: 400; }
