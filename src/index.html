@@ -12,16 +12,14 @@
     <section class="main-page">
         <header class="main-header">
             <a href="#" class="logo-link">
-                <div class="header-logo">
-
-            </div>
+                <picture>
+                        <source srcset="/img/1440_main_logo.jpg" media="(min-width: 1440px)">
+                    <source srcset="/img/764_main_logo.jpg" media="(min-width: 764px)">
+                    <img src="/img/320_main_logo.jpg" alt="Logo">
+                </picture>
         </a>
         <nav class="main-nav">
-                <button class="hamburger">
-                        <span class="hamburger__line hamburger__line--top"></span>
-                        <span class="hamburger__line hamburger__line--middle"></span>
-                        <span class="hamburger__line hamburger__line--bottom"></span>
-                    </button>
+                
                     <ul class="main-nav__items">
                             <li class="main-nav__link">
                                 <a href="#2" class="main-nav__item main-nav__item--active">Обо мне</a>
@@ -34,9 +32,13 @@
                                 <a href="#4" class="main-nav__item">Контакты</a>
                             </li>
                     </ul>
-
+                    <button class="hamburger">
+                            <span class="hamburger__line hamburger__line--top"></span>
+                            <span class="hamburger__line hamburger__line--middle"></span>
+                            <span class="hamburger__line hamburger__line--bottom"></span>
+                        </button>
         </nav>
-        <div class="nav__phone nav__phone--mobile">+ 7 916 66 77 112</div>
+        <a href="tel:79166677112" class="nav__phone nav__phone--mobile">+ 7 916 66 77 112</a>
         </header>
         <ul class="paginations">
             <li class="pagination"><a href="#" class="pagintaion__link"></a></li>
@@ -49,7 +51,7 @@
         <div class="hero">
             <h1 class="hero__name">Дарья Воронина </h1>
             <p class="hero__desc">Food — фотограф и food — стилист в Москве и Московской области</p>
-            <a href="#" class="btn">Портфолио -</a>
+            <a href="#" class="btn">Портфолио —</a>
             <div class="hero__pic">
                 <picture>
                     <img src="#" alt="Daria Voronina">
