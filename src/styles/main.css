@@ -163,3 +163,54 @@
   font-size: 18px;
   font-weight: 700;
   margin: 0; }
+
+.download-page {
+  min-width: 320px;
+  box-sizing: border-box;
+  position: relative; }
+  .download-page .section__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1; }
+  .download-page .section__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 298px;
+    margin-right: 75px;
+    box-sizing: border-box;
+    margin-left: auto;
+    padding-top: 77px;
+    z-index: 2;
+    color: #fff;
+    position: relative;
+    text-align: left; }
+  .download-page .section__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: normal;
+    color: #ffffff;
+    font-family: "Source Serif Roman - Semibold";
+    font-size: 18px;
+    font-weight: 400; }
+  .download-page .section__desc {
+    color: #ffffff;
+    font-family: "Source Serif Roman";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  .download-page .btn {
+    margin-left: 0;
+    position: relative;
+    width: 146px; }
+    .download-page .btn--pdf:after {
+      content: "";
+      display: inline-block;
+      width: 24px;
+      height: 27px;
+      position: absolute;
+      background: url(/img/icon_pdf.png) no-repeat;
+      right: -30px;
+      top: 3px; }
