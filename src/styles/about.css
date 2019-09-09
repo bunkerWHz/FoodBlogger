@@ -1,0 +1,37 @@
+.about {
+  min-width: 320px;
+  box-sizing: border-box; }
+
+.gallery__desc {
+  color: #1d1c1c;
+  font-family: "Source Serif Roman";
+  font-size: 14px;
+  font-weight: 400; }
+  .gallery__desc--tablet {
+    display: none; }
+
+.gallery__phone {
+  font-family: "Source Serif Roman - Semibold";
+  color: #1d1c1c;
+  font-size: 14px; }
+
+.gallery__photos {
+  display: flex;
+  flex-direction: row;
+  height: 342px; }
+
+.gallery__photo--left {
+  margin-right: 10px;
+  margin-left: -60px;
+  margin-bottom: 35px; }
+
+.gallery__photo--right {
+  margin-top: 35px; }
+
+.gallery__info {
+  text-align: center;
+  padding: 0 26px;
+  color: #1d1c1c;
+  font-family: "Source Serif Roman";
+  font-size: 14px;
+  font-weight: 400; }
