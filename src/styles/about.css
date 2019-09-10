@@ -36,3 +36,39 @@
   font-family: "Source Serif Roman";
   font-size: 14px;
   font-weight: 400; }
+
+@media screen and (min-width: 764px) {
+  .about {
+    margin-top: 300px;
+    padding: 0 61px; }
+  .gallery__photos {
+    height: 600px;
+    justify-content: center; }
+  .gallery__photo--left {
+    margin: 0;
+    margin-right: 28px;
+    margin-bottom: 28px; }
+  .gallery__photo--right {
+    margin-top: 48px;
+    margin-bottom: 28px; }
+  .gallery__info {
+    display: none; }
+  .gallery__phone {
+    font-family: "Source Serif Roman - Semibold";
+    font-weight: 700;
+    font-size: 16px; }
+  .gallery__desc {
+    display: block;
+    margin: 0;
+    color: #1d1c1c;
+    font-family: "Source Serif Roman";
+    font-size: 16px;
+    font-weight: 400; }
+    .gallery__desc--tablet {
+      display: block; }
+      .gallery__desc--tablet .btn {
+        margin: 0;
+        margin-top: 29px; }
+    .gallery__desc--left {
+      margin: 0;
+      width: 306px; } }

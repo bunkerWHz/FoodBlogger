@@ -51,8 +51,7 @@
 
 @media screen and (min-width: 764px) {
   .download-page {
-    padding-right: 61px;
-    margin-bottom: 300px; }
+    padding-right: 61px; }
     .download-page .section__img {
       position: unset;
       float: left;
