@@ -51,10 +51,10 @@
     margin-bottom: 68px; }
   .portfolio__photos {
     display: grid;
-    height: 700px;
     grid-template-columns: 240px 184px 184px;
     grid-auto-flow: column dense;
     grid-gap: 16px;
+    justify-content: center;
     margin-bottom: 165px; }
   .portfolio__photo {
     margin: 0;

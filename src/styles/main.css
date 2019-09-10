@@ -176,7 +176,7 @@
   .pic__main {
     display: block;
     float: right; }
-  .socials {
+  .socials--tablet {
     padding: 0;
     margin: 0;
     margin-top: 73px;
@@ -184,9 +184,9 @@
     display: flex;
     list-style: none;
     flex-direction: row; }
-    .socials .social {
+    .socials--tablet .social {
       margin-right: 15px; }
-      .socials .social__link {
+      .socials--tablet .social__link {
         text-decoration: none;
         opacity: 0.4;
         color: #212021;
@@ -249,10 +249,10 @@
     margin-bottom: 68px; }
   .portfolio__photos {
     display: grid;
-    height: 700px;
     grid-template-columns: 240px 184px 184px;
     grid-auto-flow: column dense;
     grid-gap: 16px;
+    justify-content: center;
     margin-bottom: 165px; }
   .portfolio__photo {
     margin: 0;
@@ -318,6 +318,39 @@
       background: url(/img/icon_pdf.png) no-repeat;
       right: -30px;
       top: 3px; }
+
+@media screen and (min-width: 764px) {
+  .download-page {
+    padding-right: 61px; }
+    .download-page .section__img {
+      position: unset;
+      float: left;
+      margin-right: 22px;
+      margin-left: -190px; }
+    .download-page .section__title {
+      color: #212021;
+      font-size: 24px;
+      margin-top: 39px; }
+    .download-page .section__wr {
+      width: 400px;
+      float: right; }
+    .download-page .section__desc {
+      color: #212021;
+      font-size: 16px;
+      margin-top: 0;
+      margin-right: 170px; }
+    .download-page .section__wrapper {
+      overflow: hidden;
+      height: 372px;
+      box-sizing: border-box;
+      padding-top: 63px;
+      display: block;
+      margin: 0;
+      width: 100%;
+      background-image: url(/img/764_download_bg-2.png), url(/img/764_download_bg-1.jpg);
+      background-repeat: no-repeat, no-repeat;
+      background-color: #fff;
+      background-position: 100px 28px, -210px 0; } }
 
 .about {
   min-width: 320px;

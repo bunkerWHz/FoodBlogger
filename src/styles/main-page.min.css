@@ -151,7 +151,7 @@
   .pic__main {
     display: block;
     float: right; }
-  .socials {
+  .socials--tablet {
     padding: 0;
     margin: 0;
     margin-top: 73px;
@@ -159,9 +159,9 @@
     display: flex;
     list-style: none;
     flex-direction: row; }
-    .socials .social {
+    .socials--tablet .social {
       margin-right: 15px; }
-      .socials .social__link {
+      .socials--tablet .social__link {
         text-decoration: none;
         opacity: 0.4;
         color: #212021;

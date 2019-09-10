@@ -57,4 +57,45 @@
     }
 }
 
+@media screen and (min-width: 764px) {
+    .download-page {
+        padding-right: 61px;
+    .section__img {
+        position: unset;
+        float: left;
+        margin-right: 22px;
+        margin-left: -190px;
+    }
+    .section__title {
+        color: #212021;
+        font-size: 24px;
+        margin-top: 39px;
+    }
+    .section__wr {
+        width: 400px;
+        float: right;
+    }
+    .section__desc {
+color: #212021;
+font-size: 16px;
+margin-top: 0;
+margin-right: 170px;
+    }
+    .section__wrapper {
+        overflow: hidden;
+        height: 372px;
+        box-sizing: border-box;
+        padding-top: 63px;
+        display: block;
+        margin: 0;
+        width: 100%;
+        background-image:
+         url(/img/764_download_bg-2.png),
+        url(/img/764_download_bg-1.jpg);
+        background-repeat: no-repeat, no-repeat;
+        background-color: #fff;
+        background-position: 100px 28px, -210px 0;
+    }
+ }
+}
 
