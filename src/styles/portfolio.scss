@@ -43,3 +43,40 @@ font-size: 18px;
 font-weight: 700;
 margin: 0;
 }
+
+@media screen and (min-width: 764px) {
+    .portfolio {
+        padding: 0 61px;
+    }
+    .section__title {
+    font-size: 24px;
+    letter-spacing: 3.66px;
+    margin-top: 260px;
+    margin-bottom: 68px;
+    }
+    .portfolio__photos {
+        display: grid;
+        height: 700px;
+        grid-template-columns:  240px 184px 184px;
+        grid-auto-flow: column dense;
+        grid-gap: 16px;
+        margin-bottom: 165px;
+    }
+    .portfolio__photo{
+        margin: 0;
+        width: 184px;
+        &:last-child {
+            margin-top: 115px;
+            grid-row:  span 2;
+        }
+     &:first-child {
+         width: 240px;
+        margin-top: 99px;
+        grid-row:  span 2;
+            }
+        }
+        .photo__desc {
+            font-size: 16px;
+            letter-spacing: normal;
+        }
+}
