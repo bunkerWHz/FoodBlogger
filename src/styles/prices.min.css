@@ -1,0 +1,53 @@
+.prices {
+  padding: 0 15px;
+  min-width: 320px;
+  box-sizing: border-box; }
+
+.prices__photos {
+  display: flex;
+  flex-direction: column; }
+
+.prices__photo {
+  margin-bottom: 65px; }
+
+.photo__price {
+  color: #8eb574;
+  font-family: "Source Serif Roman";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 17.87px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.price__time {
+  margin-right: auto;
+  margin-left: 38px;
+  flex-basis: 100%; }
+
+.price__value {
+  margin-left: auto;
+  margin-right: 38px;
+  position: relative; }
+  .price__value:before {
+    position: absolute;
+    left: -22px;
+    top: 7px;
+    display: inline-block;
+    content: "";
+    width: 13px;
+    height: 2px;
+    background-color: #8eb574; }
+
+.photo__features {
+  width: 230px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
