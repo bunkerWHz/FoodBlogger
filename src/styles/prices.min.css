@@ -51,3 +51,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
+
+.photo__feature {
+  color: #212021;
+  font-family: "Source Serif Roman";
+  font-size: 14px;
+  font-weight: 400; }

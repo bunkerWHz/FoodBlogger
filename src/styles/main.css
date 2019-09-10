@@ -313,3 +313,61 @@
   font-family: "Source Serif Roman";
   font-size: 14px;
   font-weight: 400; }
+
+.contacts {
+  min-width: 320px;
+  box-sizing: border-box;
+  padding: 0 15px; }
+
+.contacts__footer {
+  padding-bottom: 85px; }
+  .contacts__footer .contacts__links {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center; }
+  .contacts__footer .contacts__link {
+    margin: 20px auto;
+    color: #4e4d4e;
+    font-family: "Source Serif Roman - Semibold";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.36px; }
+    .contacts__footer .contacts__link .link {
+      width: 20px;
+      height: 18px;
+      color: #8eb574;
+      font-family: "Source Serif Roman - Semibold";
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 1.8px;
+      margin: 0 5px; }
+  .contacts__footer .socials {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 183px;
+    height: 26px;
+    list-style: none;
+    justify-content: center; }
+    .contacts__footer .socials .social {
+      display: inline-block;
+      margin-right: 26px;
+      padding: 0; }
+      .contacts__footer .socials .social:last-child {
+        margin-right: 0; }
+      .contacts__footer .socials .social__link {
+        width: 26px;
+        height: 26px;
+        display: inline-block; }
+        .contacts__footer .socials .social__link--fb {
+          background: url("/img/320_icon_facebook.png") no-repeat; }
+        .contacts__footer .socials .social__link--vk {
+          background: url("/img/320_icon_vk.png") no-repeat; }
+        .contacts__footer .socials .social__link--inst {
+          background: url("/img/320_icon_instagram.png") no-repeat; }
+        .contacts__footer .socials .social__link--pin {
+          background: url("/img/320_icon_pinterest.png") no-repeat; }
