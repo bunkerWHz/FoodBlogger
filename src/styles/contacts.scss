@@ -1,10 +1,12 @@
 .contacts {
-        min-width: 320px;
-        box-sizing: border-box;
-        padding: 0 15px;
+    min-width: 320px;
+    box-sizing: border-box;
+    padding: 0 15px;
 }
+
 .contacts__footer {
     padding-bottom: 85px;
+
     .contacts__links {
         width: 100%;
         margin: 0;
@@ -12,6 +14,7 @@
         list-style: none;
         text-align: center;
     }
+
     .contacts__link {
         margin: 20px auto;
         color: #4e4d4e;
@@ -19,53 +22,62 @@
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 1.36px;
-                    .link {
-                    width: 20px;
-                    height: 18px;
-                    color: #8eb574;
-                    font-family: "Source Serif Roman - Semibold";
-                    font-size: 18px;
-                    font-weight: 400;
-                    letter-spacing: 1.8px;
-                    margin: 0 5px;
-                    }
-      }
-      .socials {
-          padding: 0;
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          margin: 0 auto;
-          width: 183px;
-          height: 26px;
-          list-style: none;
-          justify-content: center;
-          .social {
-              display: inline-block;
-              margin-right: 26px;
-              padding: 0;
-              &:last-child {
-                  margin-right: 0;
-              }
-              &__link {
-                  width: 26px;
-                  height: 26px;
-                  display: inline-block;
-                  &--fb {
-                    background:  url("/img/320_icon_facebook.png") no-repeat;
-                  }
-                  &--vk {
-                    background:  url("/img/320_icon_vk.png") no-repeat;
-                  }
-                  &--inst {
-                    background:  url("/img/320_icon_instagram.png") no-repeat;
-                  }
-                  &--pin {
-                    background:  url("/img/320_icon_pinterest.png") no-repeat;
-                  }
-              }
-          }
-      }
+
+        .link {
+            width: 20px;
+            height: 18px;
+            color: #8eb574;
+            font-family: "Source Serif Roman - Semibold";
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 1.8px;
+            margin: 0 5px;
+        }
+    }
+
+    .socials {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 183px;
+        height: 26px;
+        list-style: none;
+        justify-content: center;
+
+        .social {
+            display: inline-block;
+            margin-right: 26px;
+            padding: 0;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &__link {
+                width: 26px;
+                height: 26px;
+                display: inline-block;
+
+                &--fb {
+                    background: url("/img/320_icon_facebook.png") no-repeat;
+                }
+
+                &--vk {
+                    background: url("/img/320_icon_vk.png") no-repeat;
+                }
+
+                &--inst {
+                    background: url("/img/320_icon_instagram.png") no-repeat;
+                }
+
+                &--pin {
+                    background: url("/img/320_icon_pinterest.png") no-repeat;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 764px) {
@@ -74,40 +86,44 @@
             margin-bottom: 83px;
         }
     }
+
     .contacts__footer {
 
         .contacts__link {
             font-size: 16px;
+
             .link {
                 margin-right: 15px;
                 margin-left: 25px;
             }
         }
+
         .socials {
             width: 216px;
-        height: 34px;
+            height: 34px;
+
             .social {
                 &__link {
-                        width: 34px;
-                        height: 34px;
-                        &--fb {
-                            background:  url("/img/764_icon_facebook.png") no-repeat;
-                          }
-                          &--vk {
-                            background:  url("/img/764_icon_vk.png") no-repeat;
-                          }
-                          &--inst {
-                            background:  url("/img/764_icon_instagram.png") no-repeat;
-                          }
-                          &--pin {
-                            background:  url("/img/764_icon_pinterest.png") no-repeat;
-                          }
+                    width: 34px;
+                    height: 34px;
+
+                    &--fb {
+                        background: url("/img/764_icon_facebook.png") no-repeat;
+                    }
+
+                    &--vk {
+                        background: url("/img/764_icon_vk.png") no-repeat;
+                    }
+
+                    &--inst {
+                        background: url("/img/764_icon_instagram.png") no-repeat;
+                    }
+
+                    &--pin {
+                        background: url("/img/764_icon_pinterest.png") no-repeat;
+                    }
                 }
             }
         }
-
-
     }
-  
-
 }
