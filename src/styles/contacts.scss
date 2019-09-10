@@ -67,3 +67,47 @@
           }
       }
 }
+
+@media screen and (min-width: 764px) {
+    .contacts {
+        .section__title {
+            margin-bottom: 83px;
+        }
+    }
+    .contacts__footer {
+
+        .contacts__link {
+            font-size: 16px;
+            .link {
+                margin-right: 15px;
+                margin-left: 25px;
+            }
+        }
+        .socials {
+            width: 216px;
+        height: 34px;
+            .social {
+                &__link {
+                        width: 34px;
+                        height: 34px;
+                        &--fb {
+                            background:  url("/img/764_icon_facebook.png") no-repeat;
+                          }
+                          &--vk {
+                            background:  url("/img/764_icon_vk.png") no-repeat;
+                          }
+                          &--inst {
+                            background:  url("/img/764_icon_instagram.png") no-repeat;
+                          }
+                          &--pin {
+                            background:  url("/img/764_icon_pinterest.png") no-repeat;
+                          }
+                }
+            }
+        }
+
+
+    }
+  
+
+}
