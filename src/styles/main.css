@@ -434,10 +434,13 @@
 
 .prices__photos {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center;
+  width: auto; }
 
 .prices__photo {
-  margin-bottom: 65px; }
+  margin-bottom: 65px;
+  width: 290px; }
 
 .photo__price {
   color: #8eb574;
@@ -486,6 +489,34 @@
   font-family: "Source Serif Roman";
   font-size: 14px;
   font-weight: 400; }
+
+@media screen and (min-width: 764px) {
+  .prices {
+    padding: 0 61px; }
+    .prices .section__title {
+      margin-bottom: 114px; }
+  .prices__photos {
+    display: grid;
+    grid-template-columns: 239px 186px 180px;
+    grid-gap: 17px;
+    align-items: flex-start;
+    grid-row: dense;
+    margin-bottom: 300px; }
+  .prices__photo {
+    margin: 0;
+    width: auto; }
+    .prices__photo:first-child {
+      margin-top: 102px; }
+    .prices__photo:last-child {
+      margin-top: 118px; }
+  .photo__features {
+    width: auto; }
+  .price__time {
+    margin-left: 5px;
+    font-size: 16px; }
+  .price__value {
+    margin-right: 5px;
+    font-size: 16px; } }
 
 .contacts {
   min-width: 320px;
