@@ -49,14 +49,16 @@
             <li class="pagination"><a href="#" class="pagintaion__link"></a></li>
         </ul>
         <div class="hero">
-            <h1 class="hero__name">Дарья Воронина </h1>
-            <p class="hero__desc">Food — фотограф и food — стилист в Москве и Московской области</p>
-            <a href="#" class="btn">Портфолио —</a>
-            <div class="hero__pic">
-                <picture>
-                    <img src="#" alt="Daria Voronina">
-                </picture>
+            <div class="hero__wrapper">
+                    <h1 class="hero__name">Дарья Воронина </h1>
+                    <p class="hero__desc">Food — фотограф и food — стилист в Москве и Московской области</p>
+                    <a href="#" class="btn">Портфолио —</a>
             </div>
+                <picture>
+                    <source srcset="/img/1440_hero.jpg" media="(min-width: 1440px)">
+                        <source srcset="/img/764_hero.jpg" media="(min-width: 764px)">
+                            <img src="/img/320_hero.jpg" alt="Daria Voronina" class="pic__main">
+                </picture>
         </div>
         <ul class="socials">
             <li class="social"><a href="#" class="social__link">INSTAGRAM</a></li>
