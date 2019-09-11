@@ -72,3 +72,41 @@
     .gallery__desc--left {
       margin: 0;
       width: 306px; } }
+
+@media screen and (min-width: 1440px) {
+  .about {
+    position: relative;
+    padding: 0 166px;
+    background-image: url(/img/1440_about_bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left 102px; }
+  .about__wrapper {
+    margin-top: 102px;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(/img/1440_about_bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom; }
+  .gallery__info {
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+    flex-direction: column;
+    width: 320px;
+    justify-content: space-between;
+    height: 350px;
+    margin-top: auto;
+    margin-left: 51px; }
+  .gallery__desc {
+    color: #1d1c1c;
+    font-family: "Source Serif Roman";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px; }
+    .gallery__desc--email {
+      margin-bottom: 0; }
+    .gallery__desc--tablet {
+      display: none; }
+  .btn {
+    margin-left: 0; } }
