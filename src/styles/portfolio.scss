@@ -106,11 +106,19 @@ margin: 0;
     }
     .socials--side {
         margin: 0;
+        z-index: 2;
         display: flex;
         flex-direction: row;
         position: absolute;
         top: 50%;
         right: 0;
         transform: rotate(90deg);
+opacity: 0.4;
+color: #cb98a8;
+font-family: "Source Serif Roman";
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 1.4px;
     }
 }

@@ -81,3 +81,33 @@
       background-repeat: no-repeat, no-repeat;
       background-color: #fff;
       background-position: 100px 28px, -210px 0; } }
+
+@media screen and (min-width: 1440px) {
+  .download-page {
+    position: relative; }
+    .download-page .section__wrapper {
+      display: flex;
+      flex-direction: row;
+      padding-top: 86px;
+      height: 520px;
+      background-image: url(/img/1440_download_bg-2.png), url(/img/1440_download_bg-1.jpg);
+      background-repeat: no-repeat, no-repeat;
+      background-color: #fff;
+      background-position: left 421px top 38px, left 0 top 0; }
+    .download-page .section__img {
+      margin-left: 0; }
+    .download-page .section__title {
+      color: #212021;
+      font-family: "Source Serif Roman - Semibold";
+      font-size: 24px;
+      font-weight: 400; }
+    .download-page .section__desc {
+      font-size: 18px;
+      margin-bottom: 40px; }
+    .download-page .section__wr {
+      width: 400px;
+      float: right;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; } }
