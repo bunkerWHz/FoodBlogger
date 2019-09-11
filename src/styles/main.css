@@ -748,11 +748,14 @@
     grid-gap: 30px; }
   .photo__price {
     width: 270px;
-    text-align: center; }
+    text-align: center;
+    line-height: 25px; }
   .price__time {
     font-size: 24px; }
   .price__value {
     font-size: 18px; }
+    .price__value::before {
+      top: 11px; }
   .photo__feature {
     font-size: 18px; } }
 
