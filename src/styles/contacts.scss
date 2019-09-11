@@ -142,12 +142,12 @@
                     margin: 0 9px;
                 }
             }
-            .contacts__links {
-                display: flex;
-                flex-direction: row;
-                margin-bottom: 72px;
-            }
+        &__links {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 72px;
         }
+    }
     }
    
 }

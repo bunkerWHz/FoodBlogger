@@ -834,7 +834,7 @@
       font-size: 18px; }
       .contacts__footer .contacts .contacts__link .link {
         margin: 0 9px; }
-    .contacts__footer .contacts .contacts__links {
+    .contacts__footer .contacts__links {
       display: flex;
       flex-direction: row;
       margin-bottom: 72px; } }
