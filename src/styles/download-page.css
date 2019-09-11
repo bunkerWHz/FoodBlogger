@@ -12,14 +12,18 @@
     flex-direction: column;
     width: 180px;
     height: 298px;
-    margin-right: 75px;
     box-sizing: border-box;
-    margin-left: auto;
     padding-top: 77px;
+    justify-content: center;
     z-index: 2;
     color: #fff;
     position: relative;
     text-align: left; }
+  .download-page .section__wr {
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    padding-left: 45px; }
   .download-page .section__title {
     margin-top: 0;
     margin-bottom: 20px;

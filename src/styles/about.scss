@@ -22,10 +22,10 @@ font-weight: 400;
     flex-direction: row;
     height: 342px;
     overflow: hidden;
+    justify-content: center;
 }
 .gallery__photo--left {
     margin-right: 10px;
-    margin-left: -60px;
     margin-bottom: 35px;
 }
 .gallery__photo--right {
