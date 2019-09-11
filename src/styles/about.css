@@ -79,7 +79,8 @@
     padding: 0 166px;
     background-image: url(/img/1440_about_bg-1.jpg);
     background-repeat: no-repeat;
-    background-position: left 102px; }
+    background-position: left 102px;
+    margin-bottom: 240px; }
   .about__wrapper {
     margin-top: 102px;
     height: 560px;
@@ -97,7 +98,8 @@
     justify-content: space-between;
     height: 350px;
     margin-top: auto;
-    margin-left: 51px; }
+    margin-left: auto;
+    margin-right: 75px; }
   .gallery__desc {
     color: #1d1c1c;
     font-family: "Source Serif Roman";

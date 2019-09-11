@@ -109,7 +109,7 @@
 @media screen and (min-width: 764px) {
   .main-page {
     height: 823px;
-    background: #f8f8f8 url(/img/764_main_bg.jpg) no-repeat left 456px top 0;
+    background: #f8f8f8 url(/img/764_main_bg.jpg) no-repeat right 0 top 0;
     position: relative; }
   .main-nav {
     height: 60px; }
@@ -187,7 +187,8 @@
     background-repeat: no-repeat, no-repeat;
     background-position: top 100px right 60px, top right;
     background-color: #f8f8f8;
-    position: relative; }
+    position: relative;
+    margin-bottom: 280px; }
   .logo-link {
     width: 254px;
     height: 76px;

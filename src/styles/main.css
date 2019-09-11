@@ -135,7 +135,7 @@
 @media screen and (min-width: 764px) {
   .main-page {
     height: 823px;
-    background: #f8f8f8 url(/img/764_main_bg.jpg) no-repeat left 456px top 0;
+    background: #f8f8f8 url(/img/764_main_bg.jpg) no-repeat right 0 top 0;
     position: relative; }
   .main-nav {
     height: 60px; }
@@ -219,7 +219,8 @@
     background-repeat: no-repeat, no-repeat;
     background-position: top 100px right 60px, top right;
     background-color: #f8f8f8;
-    position: relative; }
+    position: relative;
+    margin-bottom: 280px; }
   .logo-link {
     width: 254px;
     height: 76px;
@@ -603,7 +604,8 @@
     padding: 0 166px;
     background-image: url(/img/1440_about_bg-1.jpg);
     background-repeat: no-repeat;
-    background-position: left 102px; }
+    background-position: left 102px;
+    margin-bottom: 240px; }
   .about__wrapper {
     margin-top: 102px;
     height: 560px;
@@ -621,7 +623,8 @@
     justify-content: space-between;
     height: 350px;
     margin-top: auto;
-    margin-left: 51px; }
+    margin-left: auto;
+    margin-right: 75px; }
   .gallery__desc {
     color: #1d1c1c;
     font-family: "Source Serif Roman";
