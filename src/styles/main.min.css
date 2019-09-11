@@ -718,6 +718,26 @@
     margin-right: 5px;
     font-size: 16px; } }
 
+@media screen and (min-width: 1440px) {
+  .prices {
+    overflow: hidden;
+    position: relative; }
+    .prices .section__title {
+      margin-bottom: 0; }
+  .prices__photos {
+    margin-top: 200px;
+    grid-template-columns: 414px 317px 315px;
+    grid-gap: 30px; }
+  .photo__price {
+    width: 270px;
+    text-align: center; }
+  .price__time {
+    font-size: 24px; }
+  .price__value {
+    font-size: 18px; }
+  .photo__feature {
+    font-size: 18px; } }
+
 .contacts {
   min-width: 320px;
   box-sizing: border-box;
