@@ -621,6 +621,12 @@
       margin-bottom: 0; }
     .gallery__desc--tablet {
       display: none; }
+  .gallery__photo--left {
+    margin-right: 30px;
+    margin-bottom: 0; }
+  .gallery__photo--right {
+    margin-top: 50px;
+    margin-bottom: 0; }
   .btn {
     margin-left: 0; } }
 

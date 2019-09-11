@@ -124,12 +124,22 @@ font-family: "Source Serif Roman";
 font-size: 18px;
 font-weight: 400;
 margin-bottom: 30px;
-&--email {
-    margin-bottom: 0;
-}
-&--tablet {
-    display: none;
-}
+        &--email {
+            margin-bottom: 0;
+        }
+        &--tablet {
+            display: none;
+        }
+    }
+    .gallery__photo {
+        &--left {
+            margin-right: 30px;
+            margin-bottom: 0;
+        }
+        &--right {
+            margin-top: 50px;
+            margin-bottom: 0;
+        }
     }
     .btn {
         margin-left: 0;
