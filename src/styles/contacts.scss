@@ -106,7 +106,7 @@
                 &__link {
                     width: 34px;
                     height: 34px;
-
+                    opacity: 1;
                     &--fb {
                         background: url("/img/764_icon_facebook.png") no-repeat;
                     }
@@ -126,4 +126,28 @@
             }
         }
     }
+}
+
+@media screen and (min-width: 1440px) {
+    .section__title {
+        margin-top: 0;
+    }
+    .contacts__footer {
+        .contacts {
+            padding: 0 166px;
+            position: relative;
+            .contacts__link {
+                font-size: 18px;
+                .link {
+                    margin: 0 9px;
+                }
+            }
+            .contacts__links {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 72px;
+            }
+        }
+    }
+   
 }

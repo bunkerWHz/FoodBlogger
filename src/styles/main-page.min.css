@@ -163,12 +163,6 @@
     .socials .social {
       margin-right: 20px;
       position: relative; }
-      .socials .social:not(:last-child):after {
-        position: absolute;
-        opacity: 0.4;
-        content: "—";
-        top: 0;
-        right: -16px; }
       .socials .social__link {
         text-decoration: none;
         opacity: 0.4;

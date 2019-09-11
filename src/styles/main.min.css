@@ -189,12 +189,6 @@
     .socials .social {
       margin-right: 20px;
       position: relative; }
-      .socials .social:not(:last-child):after {
-        position: absolute;
-        opacity: 0.4;
-        content: "—";
-        top: 0;
-        right: -16px; }
       .socials .social__link {
         text-decoration: none;
         opacity: 0.4;
@@ -809,7 +803,8 @@
     height: 34px; }
     .contacts__footer .socials .social__link {
       width: 34px;
-      height: 34px; }
+      height: 34px;
+      opacity: 1; }
       .contacts__footer .socials .social__link--fb {
         background: url("/img/764_icon_facebook.png") no-repeat; }
       .contacts__footer .socials .social__link--vk {
@@ -818,3 +813,7 @@
         background: url("/img/764_icon_instagram.png") no-repeat; }
       .contacts__footer .socials .social__link--pin {
         background: url("/img/764_icon_pinterest.png") no-repeat; } }
+
+@media screen and (min-width: 1440px) {
+  .section__title {
+    margin-top: 0; } }

@@ -217,7 +217,7 @@
         .social {
             margin-right: 20px;
             position: relative;
-            &:not(:last-child):after {
+            &--side:not(:last-child):after {
                 position: absolute;
                 opacity: 0.4;
                 content: "—";
@@ -226,7 +226,6 @@
             }
             &__link {
                 text-decoration: none;
-
                 opacity: 0.4;
                 color: #212021;
                 font-family: "Source Serif Roman";
