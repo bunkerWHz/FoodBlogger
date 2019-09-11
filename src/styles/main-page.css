@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .main-page {
   min-width: 320px;
   min-height: 480px;
@@ -151,7 +152,7 @@
   .pic__main {
     display: block;
     float: right; }
-  .socials--tablet {
+  .socials {
     padding: 0;
     margin: 0;
     margin-top: 73px;
@@ -159,9 +160,16 @@
     display: flex;
     list-style: none;
     flex-direction: row; }
-    .socials--tablet .social {
-      margin-right: 15px; }
-      .socials--tablet .social__link {
+    .socials .social {
+      margin-right: 20px;
+      position: relative; }
+      .socials .social:not(:last-child):after {
+        position: absolute;
+        opacity: 0.4;
+        content: "—";
+        top: 0;
+        right: -16px; }
+      .socials .social__link {
         text-decoration: none;
         opacity: 0.4;
         color: #212021;
@@ -252,7 +260,7 @@
         font-style: italic; }
         .paginations .pagination__link--active {
           display: unset; }
-  .socials {
+  .socials--desktop {
     margin-left: 154px; }
-    .socials .social__link {
+    .socials--desktop .social__link {
       font-size: 14px; } }
