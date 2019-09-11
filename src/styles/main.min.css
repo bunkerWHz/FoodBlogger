@@ -196,6 +196,92 @@
         text-transform: uppercase;
         letter-spacing: 1.2px; } }
 
+@media screen and (min-width: 1440px) {
+  .main-page {
+    height: 782px;
+    box-sizing: border-box;
+    background-image: url(/img/1440_main_bg-2.png), url(/img/1440_main_bg-1.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 100px right 60px, top right;
+    background-color: #f8f8f8;
+    position: relative; }
+  .logo-link {
+    width: 254px;
+    height: 76px;
+    box-sizing: border-box; }
+  .nav__phone {
+    margin-right: auto;
+    margin-left: 74px; }
+  .main-header {
+    height: 76px;
+    box-sizing: border-box; }
+  .main-nav {
+    height: 76px;
+    width: auto;
+    box-sizing: border-box; }
+    .main-nav__items {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+    .main-nav__item {
+      padding: 28px 60px;
+      text-decoration: none;
+      opacity: 0.6;
+      color: #212021;
+      font-family: "Source Serif Roman";
+      font-size: 18px;
+      font-weight: 400; }
+  .hamburger {
+    display: none; }
+  .hero {
+    height: 533px;
+    box-sizing: border-box;
+    margin-left: 154px;
+    width: 850px; }
+    .hero__name {
+      font-size: 48px;
+      margin-top: 156px; }
+    .hero__desc {
+      font-size: 18px;
+      width: 285px; }
+    .hero__wrapper {
+      width: 380px; }
+  .paginations {
+    display: flex;
+    width: 37px;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    top: 35%; }
+    .paginations .pagination {
+      display: inline-block;
+      width: 15px;
+      border-bottom: 1px solid #171a1f;
+      margin-bottom: 20px;
+      padding-bottom: 5px; }
+      .paginations .pagination--active {
+        width: 40px;
+        text-align: center;
+        border-bottom: 2px solid #000000; }
+      .paginations .pagination__link {
+        display: none;
+        text-decoration: none;
+        color: #212021;
+        font-family: "Lato";
+        font-size: 14px;
+        font-weight: 300;
+        font-style: italic; }
+        .paginations .pagination__link--active {
+          display: unset; }
+  .socials {
+    margin-left: 154px; }
+    .socials .social__link {
+      font-size: 14px; } }
+
 .portfolio {
   min-width: 320px;
   box-sizing: border-box;
