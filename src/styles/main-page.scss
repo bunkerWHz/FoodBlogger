@@ -89,15 +89,16 @@
 }
 
 .hero {
-    padding-top: 160px;
+    padding-top: 154px;
 
     &__name {
         color: #fffeff;
         font-family: "Source Serif Roman - Semibold";
         font-size: 30px;
+        letter-spacing: 1.8px;
         font-weight: 400;
         margin: 0;
-        margin-bottom: 15px;
+        margin-bottom: 11px;
         margin-left: 15px;
     }
 
@@ -107,9 +108,10 @@
         font-size: 14px;
         font-weight: 300;
         margin: 0;
-        width: 260px;
+        line-height: 17px;
+        width: 220px;
         margin-left: 15px;
-        margin-bottom: 40px;
+        margin-bottom: 34px;
     }
 }
 
@@ -121,7 +123,7 @@
     text-decoration: none;
     border-bottom: #fff 2px solid;
     color: #fff;
-    padding-bottom: 10px;
+    padding-bottom: 6px;
     font-weight: 600;
     margin-left: 15px;
 }
