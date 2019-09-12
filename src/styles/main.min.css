@@ -813,7 +813,10 @@
 .contacts {
   min-width: 320px;
   box-sizing: border-box;
-  padding: 0 15px; }
+  padding: 0 15px;
+  padding-top: 71px; }
+  .contacts .section__title {
+    margin-bottom: 35px; }
 
 .contacts__footer {
   padding-bottom: 85px; }
@@ -821,10 +824,12 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-bottom: 36px;
     list-style: none;
     text-align: center; }
   .contacts__footer .contacts__link {
-    margin: 20px auto;
+    margin: 0 auto;
+    margin-bottom: 17px;
     color: #4e4d4e;
     font-family: "Source Serif Roman - Semibold";
     font-size: 14px;
