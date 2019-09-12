@@ -73,17 +73,23 @@
 
 @media screen and (min-width: 764px) {
   .prices {
-    padding: 0 61px; }
+    padding: 0 61px;
+    padding-top: 102px;
+    padding-bottom: 279px;
+    background-image: url(/img/764_prices_leaf-b.png);
+    background-repeat: no-repeat;
+    background-position: 663px 1060px; }
     .prices .section__title {
-      margin-bottom: 114px; }
+      margin-bottom: 108px; }
+      .prices .section__title:after {
+        content: "PRICE"; }
   .prices__photos {
     display: grid;
     grid-template-columns: 239px 186px 180px;
     grid-gap: 17px;
     align-items: flex-start;
     justify-content: center;
-    grid-row: dense;
-    margin-bottom: 300px; }
+    grid-row: dense; }
   .prices__photo {
     margin: 0;
     width: auto; }
@@ -91,8 +97,8 @@
       margin-top: 102px; }
     .prices__photo:last-child {
       margin-top: 118px; }
-  .photo__features {
-    width: auto; }
+  .photo__price {
+    margin-top: 10px; }
   .price__time {
     margin-left: 5px;
     font-size: 16px; }

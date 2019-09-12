@@ -77,8 +77,16 @@ font-weight: 400;
 @media screen and (min-width: 764px) {
     .prices {
         padding: 0 61px;
+        padding-top: 102px;
+        padding-bottom: 279px;
+        background-image: url(/img/764_prices_leaf-b.png);
+        background-repeat: no-repeat;
+        background-position: 663px 1060px;
         .section__title {
-            margin-bottom: 114px;
+            margin-bottom: 108px;
+            &:after {
+                content: "PRICE";
+            }
         }
     }
     .prices__photos {
@@ -88,7 +96,6 @@ font-weight: 400;
         align-items: flex-start;
         justify-content: center;
         grid-row: dense;
-        margin-bottom: 300px;
     }
     .prices__photo {
         margin: 0;
@@ -101,7 +108,9 @@ font-weight: 400;
         }
     }
     .photo__features {
-        width: auto;
+    }
+    .photo__price {
+        margin-top: 10px;
     }
     .price__time {
         margin-left: 5px;
