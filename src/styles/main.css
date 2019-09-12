@@ -607,6 +607,8 @@
 
 .gallery__info {
   text-align: center;
+  width: 280px;
+  margin: 0 auto;
   padding: 0 25px;
   color: #1d1c1c;
   font-family: "Source Serif Roman";
