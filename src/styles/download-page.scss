@@ -2,7 +2,21 @@
     min-width: 320px; 
     box-sizing: border-box;
     position: relative;
-
+    padding-top: 49px;
+    padding-bottom: 44px;
+    &:before {
+        position: absolute;
+        content: "";
+        width: 277px;
+        height: 388px;
+        display: inline-block;
+        top: 3px;
+        left: 24px;
+        background-image: url(/img/320_download_bg.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        z-index: 11;
+    }
     .section__img {
         position: absolute;
         left: 0;
@@ -15,7 +29,7 @@
         width: 180px;
         height: 298px;
         box-sizing: border-box;
-        padding-top: 77px;
+        padding-top: 75px;
         justify-content: center;
         z-index: 2;
         color: #fff;
@@ -24,21 +38,23 @@
     }
     .section__wr {
         height: 100%;
-        width: 100%;
+        width: 220px;
         z-index: 2;
         padding-left: 45px;
     }
     .section__title {
         margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 17px;
         display: inline-block;
-        letter-spacing: normal;
         color: #ffffff;
         font-family: "Source Serif Roman - Semibold";
         font-size: 18px;
         font-weight: 400;
+        letter-spacing: 1.3px;
     }
     .section__desc {
+        line-height: 17px;
+        margin-top: 0;
         color: #ffffff;
         font-family: "Source Serif Roman";
         font-size: 14px;
@@ -46,7 +62,8 @@
         margin-bottom: 30px;
     }
     .btn {
-        margin-left: 0;
+        margin-left: -6px;
+        letter-spacing: -0.6px;
         position: relative;
         width: 146px;
         &--pdf:after {
