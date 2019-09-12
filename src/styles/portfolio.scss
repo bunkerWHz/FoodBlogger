@@ -11,7 +11,19 @@ font-size: 18px;
 font-weight: 400;
 letter-spacing: 2.75px;
 text-align: center;
-margin-bottom: 50px;
+margin-bottom: 46px;
+margin-top: 58px;
+position: relative;
+&:before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    display: inline-block;
+    height: 31px;
+    top: -58px;
+    background-color: #cb98a8;
+    left: calc(50% - 1px);
+}
 }
 
 .portfolio__photos {
@@ -21,14 +33,18 @@ margin-bottom: 50px;
 }
 .portfolio__photo {
     width: 290px;
-    margin-bottom: 65px;
+    margin-bottom: 69px;
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 .photo__tags {
     margin: 0;
     list-style: none; 
     padding: 0;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 9px;
+    margin-bottom: 4px;
+    letter-spacing: 0.6px;
 }
 .photo__tag {
     display: inline-block;  
@@ -43,6 +59,8 @@ font-family: "Source Serif Roman";
 font-size: 18px;
 font-weight: 700;
 margin: 0;
+line-height: 21px;
+letter-spacing: 0.8px;
 }
 
 @media screen and (min-width: 764px) {
