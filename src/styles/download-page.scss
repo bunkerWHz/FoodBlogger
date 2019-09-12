@@ -81,24 +81,44 @@
 
 @media screen and (min-width: 764px) {
     .download-page {
+        padding-top: 4px;
         padding-right: 61px;
+        &:before {
+            display: none;
+        }
+        .btn--pdf:after {
+            width: 32px;
+            height: 36px;
+            top: -2px;
+            right: -60px;
+            background: url(/img/764_download_icon.png) no-repeat;
+        }
     .section__img {
         position: unset;
         float: left;
-        margin-right: 22px;
         margin-left: -190px;
     }
     .section__title {
         color: #212021;
         font-size: 24px;
         margin-top: 39px;
+        margin-bottom: 15px;
+        &:before {
+            display: none;
+        }
+        &:after {
+            display: none;
+        }
     }
     .section__wr {
-        width: 400px;
+        width: 420px;
+        padding-left: 10px;
         float: right;
     }
     .section__desc {
 color: #212021;
+line-height: 18px;
+letter-spacing: 0.9px;
 font-size: 16px;
 margin-top: 0;
 margin-right: 170px;
@@ -116,7 +136,7 @@ margin-right: 170px;
         url(/img/764_download_bg-1.jpg);
         background-repeat: no-repeat, no-repeat;
         background-color: #fff;
-        background-position: 100px 28px, -210px 0;
+        background-position: 121px 28px, -189px 0;
     }
  }
 }
