@@ -88,16 +88,24 @@
 
 @media screen and (min-width: 764px) {
     .contacts {
+        background-image: url(/img/764_contacts_leaf-l.png);
+        background-repeat: no-repeat;
+        background-position: 35px 120px;
         .section__title {
-            margin-bottom: 83px;
+            margin-bottom: 78px;
+            &:after {
+                content: "CONTACTS";
+            }
         }
     }
 
     .contacts__footer {
-
+        .contacts__links {
+            margin-bottom: 53px;
+        }
         .contacts__link {
             font-size: 16px;
-
+            margin-bottom: 25px;
             .link {
                 margin-right: 15px;
                 margin-left: 25px;
@@ -109,6 +117,8 @@
             height: 34px;
 
             .social {
+                margin-right: 20px;
+
                 &__link {
                     width: 34px;
                     height: 34px;
