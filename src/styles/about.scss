@@ -1,13 +1,31 @@
 .about {
     min-width: 320px;
     box-sizing: border-box;
+    padding-top: 143px;
+    .section__title {
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+    .btn {
+        color: #212021;
+        border-color: #212021;
+        margin: 0;
+        margin-top: 24px;
+        margin-left: -19px;
+    }
 }
 
 .gallery__desc {
 color: #1d1c1c;
 font-family: "Source Serif Roman";
 font-size: 14px;
+letter-spacing: 0.7px;
+margin: 0;
+
 font-weight: 400;
+&:first-child {
+    margin-bottom: 24px;
+}
 &--tablet {
     display: none;
 }
@@ -23,6 +41,7 @@ font-weight: 400;
     height: 342px;
     overflow: hidden;
     justify-content: center;
+    margin-bottom: 27px;
 }
 .gallery__photo--left {
     margin-right: 10px;
@@ -33,7 +52,7 @@ font-weight: 400;
 }
 .gallery__info {
 text-align: center;
-padding: 0 26px;
+padding: 0 25px;
 color: #1d1c1c;
 font-family: "Source Serif Roman";
 font-size: 14px;
