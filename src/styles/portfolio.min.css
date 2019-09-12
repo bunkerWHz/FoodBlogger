@@ -61,12 +61,36 @@
 
 @media screen and (min-width: 764px) {
   .portfolio {
-    padding: 0 61px; }
+    padding: 0 61px;
+    padding-top: 260px;
+    background-image: url(/img/764_leaf_icon-l.png), url(/img/764_leaf_icon-m.png), url(/img/764_leaf_icon-r.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 4px 227px, 460px 183px, 667px 330px; }
+  .socials--side {
+    display: none; }
   .section__title {
     font-size: 24px;
     letter-spacing: 3.66px;
-    margin-top: 260px;
-    margin-bottom: 68px; }
+    margin-bottom: 62px; }
+    .section__title:before {
+      top: -105px;
+      height: 38px; }
+    .section__title:after {
+      content: "WORK";
+      position: absolute;
+      display: inline-block;
+      top: -22px;
+      left: 174px;
+      z-index: -1;
+      width: 274px;
+      height: 51px;
+      opacity: 0.6;
+      color: #f8f8f8;
+      font-family: "Source Serif Roman - Semibold";
+      font-size: 71px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 12.22px; }
   .portfolio__photos {
     display: grid;
     grid-template-columns: 240px 184px 184px;
@@ -78,15 +102,19 @@
     margin: 0;
     width: 184px; }
     .portfolio__photo:last-child {
-      margin-top: 115px;
       grid-row: span 2; }
     .portfolio__photo:first-child {
       width: 240px;
-      margin-top: 99px;
+      margin-top: 6px;
       grid-row: span 2; }
+    .portfolio__photo:nth-child(2) {
+      margin-bottom: 18px; }
   .photo__desc {
     font-size: 16px;
-    letter-spacing: normal; } }
+    line-height: 19px;
+    letter-spacing: 0.3px; }
+  .photo__tags {
+    margin-bottom: 2px; } }
 
 @media screen and (min-width: 1440px) {
   .section__title {
