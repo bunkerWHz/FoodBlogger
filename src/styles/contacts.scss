@@ -149,6 +149,7 @@
         padding: 0 166px;
         position: relative;
         padding-top: 248px;
+        padding-bottom: 192px;
         .section__title {
             margin-top: 0;
             letter-spacing: 5px;
@@ -157,6 +158,7 @@
     }
    
     .contacts__footer {
+        padding: 0;
         .contacts {
             .contacts__link {
                 font-size: 18px;

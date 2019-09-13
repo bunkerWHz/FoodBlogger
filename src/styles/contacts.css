@@ -100,16 +100,19 @@
   .contacts {
     padding: 0 166px;
     position: relative;
-    padding-top: 248px; }
+    padding-top: 248px;
+    padding-bottom: 192px; }
     .contacts .section__title {
       margin-top: 0;
       letter-spacing: 5px;
       margin-bottom: 103px; }
-  .contacts__footer .contacts .contacts__link {
-    font-size: 18px; }
-    .contacts__footer .contacts .contacts__link .link {
-      margin: 0 9px; }
-  .contacts__footer .contacts__links {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 45px; } }
+  .contacts__footer {
+    padding: 0; }
+    .contacts__footer .contacts .contacts__link {
+      font-size: 18px; }
+      .contacts__footer .contacts .contacts__link .link {
+        margin: 0 9px; }
+    .contacts__footer .contacts__links {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 45px; } }
