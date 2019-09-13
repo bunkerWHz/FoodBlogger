@@ -1005,17 +1005,54 @@
 @media screen and (min-width: 1440px) {
   .prices {
     overflow: hidden;
-    position: relative; }
+    position: relative;
+    padding: 0 166px;
+    padding-top: 235px; }
+    .prices .paginations {
+      align-items: flex-end;
+      top: calc(45% - 8px);
+      left: 4.3%; }
+    .prices .socials {
+      top: calc(56% + 4px); }
     .prices .section__title {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      letter-spacing: 5.2px; }
   .prices__photos {
-    margin-top: 200px;
     grid-template-columns: 414px 317px 315px;
-    grid-gap: 30px; }
-  .photo__price {
-    width: 270px;
-    text-align: center;
-    line-height: 25px; }
+    grid-gap: 30px;
+    margin-top: 190px; }
+  .prices__photo:first-child {
+    margin-top: 172px;
+    width: 414px;
+    box-sizing: border-box; }
+    .prices__photo:first-child .photo__price {
+      padding: 0 80px;
+      text-align: center;
+      line-height: 25px;
+      margin-top: 29px;
+      margin-bottom: 26px; }
+  .prices__photo:nth-child(2) {
+    width: 317px;
+    box-sizing: border-box; }
+    .prices__photo:nth-child(2) .photo__price {
+      text-align: center;
+      line-height: 25px;
+      margin-top: 39px;
+      margin-bottom: 30px;
+      padding: 0 48px; }
+  .prices__photo:last-child {
+    width: 315px;
+    box-sizing: border-box;
+    margin-top: 200px; }
+    .prices__photo:last-child .photo__price {
+      text-align: center;
+      line-height: 25px;
+      margin-top: 28px;
+      margin-bottom: 15px;
+      padding: 0 54px; }
+  .photo__feature {
+    margin-bottom: 4px;
+    letter-spacing: 0.8px; }
   .price__time {
     font-size: 24px; }
   .price__value {
