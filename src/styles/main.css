@@ -265,8 +265,7 @@
     background-repeat: no-repeat, no-repeat;
     background-position: top 100px right 60px, top right;
     background-color: #f8f8f8;
-    position: relative;
-    margin-bottom: 280px; }
+    position: relative; }
   .logo-link {
     width: 254px;
     height: 76px;
@@ -484,35 +483,87 @@
   .section__title {
     font-size: 36px;
     margin-bottom: 0;
-    font-weight: 700; }
+    font-weight: 700;
+    letter-spacing: 1.4px; }
+    .section__title:before {
+      top: -138px; }
+    .section__title:after {
+      left: calc(50% - 180px); }
   .portfolio {
     position: relative;
-    padding: 0 166px; }
+    padding: 0 166px;
+    padding-top: 276px;
+    padding-bottom: 151px; }
+  .paginations {
+    align-items: flex-end;
+    top: calc(50% + 1px);
+    left: 4.3%; }
+    .paginations .pagination {
+      padding-bottom: 0;
+      height: 24px;
+      margin: 0;
+      margin-bottom: 15px;
+      box-sizing: border-box; }
+      .paginations .pagination--active {
+        margin-bottom: 2px;
+        margin-top: 8px;
+        height: 30px; }
   .portfolio__photos {
-    margin-top: 106px;
+    margin: 0;
+    margin-top: 98px;
     grid-template-columns: 414px 317px 315px;
     grid-gap: 30px; }
+  .portfolio__photo {
+    margin: 0;
+    width: 317px; }
+    .portfolio__photo:last-child {
+      grid-row: span 2;
+      width: 315px;
+      margin-bottom: 86px; }
+    .portfolio__photo:first-child {
+      width: 414px;
+      margin-top: 8px;
+      grid-row: span 2; }
+    .portfolio__photo:nth-child(2) {
+      margin-bottom: 66px; }
+  .photo__tags {
+    margin-top: 13px;
+    margin-bottom: 5px; }
   .photo__tag {
     font-size: 14px; }
   .photo__desc {
     font-size: 18px;
-    width: 320px; }
+    width: 320px;
+    line-height: 20px; }
   .socials--side {
     margin: 0;
     z-index: 2;
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 50%;
-    right: 0;
-    transform: rotate(90deg);
-    opacity: 0.4;
-    color: #cb98a8;
-    font-family: "Source Serif Roman";
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1.4px; } }
+    top: calc(58% + 9px);
+    right: -44px;
+    transform: rotate(90deg); }
+    .socials--side .social {
+      margin-right: 23px; }
+      .socials--side .social:not(:last-child):after {
+        display: inline-block;
+        position: absolute;
+        opacity: 0.4;
+        content: "";
+        width: 10px;
+        height: 2px;
+        background-color: #cb98a8;
+        top: 11px;
+        right: -16px; }
+      .socials--side .social__link {
+        opacity: 0.4;
+        color: #cb98a8;
+        font-family: "Source Serif Roman";
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1px; } }
 
 .download-page {
   min-width: 320px;
