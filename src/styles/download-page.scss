@@ -163,12 +163,17 @@ color: #212021;
 font-family: "Source Serif Roman - Semibold";
 font-size: 24px;
 font-weight: 400;
+margin-bottom: 17px;
         }
         .section__desc {
             font-size: 18px;
             margin-bottom: 40px;
+            width: 280px;   
+            line-height: 23px;
         }
         .section__wr {
+            padding-left: 30px;
+            padding-top: 18px;
             width: 400px;
             float: right;
             margin-right: auto;
@@ -177,8 +182,14 @@ font-weight: 400;
             align-items: flex-start;
         }
 
-
-
+        .btn--pdf {
+            margin-left: 0;
+            letter-spacing: 0.5px;
+            width: unset;
+        }
+        .socials {
+            top: calc(44% - 3px);
+        }
 
 
     }

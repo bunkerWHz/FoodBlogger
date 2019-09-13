@@ -542,7 +542,7 @@
     flex-direction: row;
     position: absolute;
     top: calc(58% + 9px);
-    right: -44px;
+    right: -43px;
     transform: rotate(90deg); }
     .socials--side .social {
       margin-right: 23px; }
@@ -704,17 +704,28 @@
       color: #212021;
       font-family: "Source Serif Roman - Semibold";
       font-size: 24px;
-      font-weight: 400; }
+      font-weight: 400;
+      margin-bottom: 17px; }
     .download-page .section__desc {
       font-size: 18px;
-      margin-bottom: 40px; }
+      margin-bottom: 40px;
+      width: 280px;
+      line-height: 23px; }
     .download-page .section__wr {
+      padding-left: 30px;
+      padding-top: 18px;
       width: 400px;
       float: right;
       margin-right: auto;
       display: flex;
       flex-direction: column;
-      align-items: flex-start; } }
+      align-items: flex-start; }
+    .download-page .btn--pdf {
+      margin-left: 0;
+      letter-spacing: 0.5px;
+      width: unset; }
+    .download-page .socials {
+      top: calc(44% - 3px); } }
 
 .about {
   min-width: 320px;
