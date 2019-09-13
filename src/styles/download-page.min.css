@@ -122,6 +122,8 @@
 @media screen and (min-width: 1440px) {
   .download-page {
     position: relative; }
+    .download-page .socials--side {
+      top: calc(44% - 3px); }
     .download-page .section__wrapper {
       display: flex;
       flex-direction: row;
@@ -156,6 +158,4 @@
     .download-page .btn--pdf {
       margin-left: 0;
       letter-spacing: 0.5px;
-      width: unset; }
-    .download-page .socials {
-      top: calc(44% - 3px); } }
+      width: unset; } }

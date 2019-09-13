@@ -306,6 +306,53 @@
         background-position: top 100px right 60px, top right;
         background-color: #f8f8f8;
         position: relative;
+       .paginations {
+        left: 20px;
+        top: calc(31%);
+        .pagination {
+            align-items: center;
+
+        }
+       }
+    
+    }
+    .paginations {
+        display: flex;
+        width: 37px;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        position: absolute;
+   
+        .pagination {
+            display: inline-block;
+            width: 11px;
+            height: 30px;
+            border-bottom: 1px solid #171a1f;
+            margin-bottom: 9px;
+            &--active {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 43px;
+                margin-bottom: 8px;
+             width: 37px;
+              border-bottom: 2px solid #000000;
+            }
+
+            &__link {
+                display: none;
+                text-decoration: none;
+                color: #212021;
+                font-family: "Lato";
+                font-size: 14px;
+                font-weight: 300;
+                font-style: italic;
+                &--active {
+                    display: unset;
+                }
+            }
+        }
     }
     .logo-link {
         width: 254px;
@@ -380,43 +427,7 @@ left:-34px;
         }
 
     }
-    .paginations {
-        display: flex;
-        width: 37px;
-        flex-direction: column;
-        list-style: none;
-        padding: 0;
-        position: absolute;
-        left: 20px;
-        top: calc(50% - 128px);
-        .pagination {
-            display: inline-block;
-            width: 11px;
-            border-bottom: 1px solid #171a1f;
-            margin-bottom: 33px;
-            padding-bottom: 5px;
-            
-            &--active {
-             width: 37px;
-             text-align: center;
-              border-bottom: 2px solid #000000;
-            }
-
-            &__link {
-                display: none;
-                text-decoration: none;
-                color: #212021;
-                font-family: "Lato";
-                font-size: 14px;
-                font-weight: 300;
-                font-style: italic;
-                &--active {
-                    display: unset;
-                }
-            }
-        }
-
-    }
+    
     .socials--tablet {
         margin-top: 118px;
         margin-left: 154px;
