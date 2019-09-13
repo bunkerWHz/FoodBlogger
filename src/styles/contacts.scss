@@ -145,13 +145,19 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .section__title {
-        margin-top: 0;
+    .contacts {
+        padding: 0 166px;
+        position: relative;
+        padding-top: 248px;
+        .section__title {
+            margin-top: 0;
+            letter-spacing: 5px;
+        margin-bottom: 103px;
+        }
     }
+   
     .contacts__footer {
         .contacts {
-            padding: 0 166px;
-            position: relative;
             .contacts__link {
                 font-size: 18px;
                 .link {
@@ -161,7 +167,7 @@
         &__links {
             display: flex;
             flex-direction: row;
-            margin-bottom: 72px;
+            margin-bottom: 45px;
         }
     }
     }

@@ -1161,16 +1161,19 @@
           background: url("/img/764_icon_pinterest.png") no-repeat; } }
 
 @media screen and (min-width: 1440px) {
-  .section__title {
-    margin-top: 0; }
-  .contacts__footer .contacts {
+  .contacts {
     padding: 0 166px;
-    position: relative; }
-    .contacts__footer .contacts .contacts__link {
-      font-size: 18px; }
-      .contacts__footer .contacts .contacts__link .link {
-        margin: 0 9px; }
-    .contacts__footer .contacts__links {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 72px; } }
+    position: relative;
+    padding-top: 248px; }
+    .contacts .section__title {
+      margin-top: 0;
+      letter-spacing: 5px;
+      margin-bottom: 103px; }
+  .contacts__footer .contacts .contacts__link {
+    font-size: 18px; }
+    .contacts__footer .contacts .contacts__link .link {
+      margin: 0 9px; }
+  .contacts__footer .contacts__links {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 45px; } }
