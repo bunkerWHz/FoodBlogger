@@ -1,10 +1,16 @@
 .about {
     min-width: 320px;
     box-sizing: border-box;
-    padding-top: 143px;
+    padding-top: 140px;
     .section__title {
         margin-top: 0;
         margin-bottom: 45px;
+        letter-spacing: 2.7px;
+        &:before {
+            height: 29px;
+            left: calc(50% - 2px);
+            top: -62px;
+        }
     }
     .btn {
         color: #212021;
@@ -17,14 +23,19 @@
 
 .gallery__desc {
 color: #1d1c1c;
-font-family: "Source Serif Roman";
+font-family: 'Source Serif Pro', serif;
+font-weight: 400;
 font-size: 14px;
 letter-spacing: 0.7px;
 margin: 0;
+line-height: 1.2;
 
 font-weight: 400;
 &:first-child {
-    margin-bottom: 24px;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
 }
 &--tablet {
     display: none;
@@ -34,7 +45,8 @@ font-weight: 400;
 }
 }
 .gallery__phone {
-    font-family: "Source Serif Roman - Semibold";
+    font-family: 'Source Serif Pro', serif;
+font-weight: 600;
     color: #1d1c1c;
     font-size: 14px;
 }
@@ -48,6 +60,7 @@ font-weight: 400;
 }
 .gallery__photo--left {
     margin-right: 10px;
+    margin-left: 20px;
     margin-bottom: 35px;
 }
 .gallery__photo--right {
@@ -57,9 +70,9 @@ font-weight: 400;
 text-align: center;
 width: 280px;
 margin: 0 auto;
-padding: 0 25px;
+padding: 0;
 color: #1d1c1c;
-font-family: "Source Serif Roman";
+font-family: 'Source Serif Pro', serif;
 font-size: 14px;
 font-weight: 400;
 }
@@ -97,15 +110,15 @@ font-weight: 400;
         display: none;
     }
     .gallery__phone {
-        font-family: "Source Serif Roman - Semibold";
-        font-weight: 700;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: 600;
         font-size: 16px;
     }
     .gallery__desc {
         display: block;
         margin: 0;
         color: #1d1c1c;
-        font-family: "Source Serif Roman";
+        font-family: 'Source Serif Pro', serif;
         font-size: 16px;
         font-weight: 400;
         &:first-child {
@@ -182,7 +195,7 @@ font-weight: 400;
     }
     .gallery__desc {
         color: #1d1c1c;
-        font-family: "Source Serif Roman";
+        font-family: 'Source Serif Pro', serif;
         font-size: 18px;
         line-height: 22px;
         font-weight: 400;

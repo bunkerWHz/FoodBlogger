@@ -2,9 +2,15 @@
     min-width: 320px;
     box-sizing: border-box;
     padding: 0 15px;
-    padding-top: 71px;
+    padding-top: 70px;
     .section__title {
         margin-bottom: 35px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        margin-left: 14px;
+        &:before {
+            left: calc(50% - 15px);
+        }
     }
 }
 
@@ -24,18 +30,18 @@
         margin: 0 auto;
         margin-bottom: 17px;
         color: #4e4d4e;
-        font-family: "Source Serif Roman - Semibold";
+        font-family: 'Source Serif Pro', serif;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 600;
         letter-spacing: 1.36px;
 
         .link {
             width: 20px;
             height: 18px;
             color: #8eb574;
-            font-family: "Source Serif Roman - Semibold";
+            font-family: 'Source Serif Pro', serif;
             font-size: 18px;
-            font-weight: 400;
+            font-weight: 600;
             letter-spacing: 1.8px;
             margin: 0 5px;
         }

@@ -2,7 +2,7 @@
     min-width: 320px;
     min-height: 480px;
     box-sizing: border-box;
-    background: url("/img/320_main_bg.jpg") no-repeat center center fixed;
+    background: url("/img/320_main_bg.jpg") no-repeat 50% 0% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -93,23 +93,26 @@
 
     &__name {
         color: #fffeff;
-        font-family: "Source Serif Roman - Semibold";
+        font-family: 'Source Serif Pro', serif;
         font-size: 30px;
-        letter-spacing: 1.8px;
-        font-weight: 400;
+        letter-spacing: 1px;
+        word-spacing: -3px;
+        font-weight: 600;
         margin: 0;
-        margin-bottom: 11px;
+        margin-bottom: 12px;
         margin-left: 15px;
     }
 
     &__desc {
         color: #ffffff;
-        font-family: "Source Serif Roman";
+        font-family: 'Source Serif Pro', serif;
         font-size: 14px;
         font-weight: 300;
         margin: 0;
-        line-height: 17px;
-        width: 220px;
+        line-height: 1.2;
+        letter-spacing: 0.5px;
+        word-spacing: -0.5px;
+        width: 230px;
         margin-left: 15px;
         margin-bottom: 34px;
     }
@@ -125,7 +128,10 @@
     color: #fff;
     padding-bottom: 6px;
     font-weight: 600;
-    margin-left: 15px;
+    margin-left: 12px;
+    letter-spacing: -1.3px;
+    word-spacing: 17px;
+
 }
 
 .socials {
@@ -150,9 +156,9 @@
             width: 300px;
             text-decoration: none;
             color: #3b3b3b;
-            font-family: "Source Serif Roman - Semibold";
+            font-family: 'Source Serif Pro', serif;
             font-size: 18px;
-            font-weight: 400;
+            font-weight: 600;
         }
 
         .hamburger {
@@ -206,9 +212,9 @@
             display: inline-block;
             content: "Food";
             color: #fffeff;
-            font-family: "Source Serif Roman - Semibold";
+            font-family: 'Source Serif Pro', serif;
             font-size: 48px;
-            font-weight: 400;
+            font-weight: 600;
             top: -17px;
             left: -42px;
             letter-spacing: 0.5px;
@@ -220,9 +226,9 @@
             display: inline-block;
             content: "Photogrphy";
             color: #fffeff;
-            font-family: "Source Serif Roman - Semibold";
+            font-family: 'Source Serif Pro', serif;
             font-size: 48px;
-            font-weight: 400;
+            font-weight: 600;
             top: 12px;
             left: 62px;
             letter-spacing: 0.1px;
@@ -287,9 +293,9 @@
             text-decoration: none;
             opacity: 0.4;
             color: #212021;
-            font-family: "Source Serif Roman";
+            font-family: 'Source Serif Pro', serif;
             font-size: 12px;
-            font-weight: 300;
+            font-weight: 400;
             text-transform: uppercase;
             letter-spacing: 0.8px;
         }
@@ -399,7 +405,7 @@
                 letter-spacing: 0.6px;
                 opacity: 0.6;
                 color: #212021;
-                font-family: "Source Serif Roman";
+                font-family: 'Source Serif Pro', serif;
                 font-size: 18px;
                 font-weight: 400;
             }

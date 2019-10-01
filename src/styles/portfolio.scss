@@ -7,10 +7,10 @@
 
 .section__title {
 color: #212021;
-font-family: "Source Serif Roman - Semibold";
+font-family: 'Source Serif Pro', serif;
 font-size: 18px;
-font-weight: 400;
-letter-spacing: 2px;
+font-weight: 600;
+letter-spacing: .8px;
 text-align: center;
 margin-bottom: 46px;
 margin-top: 0px;
@@ -34,7 +34,7 @@ position: relative;
 }
 .portfolio__photo {
     width: 290px;
-    margin-bottom: 70px;
+    margin-bottom: 65px;
     &:last-child {
         margin-bottom: 52px;
     }
@@ -44,24 +44,25 @@ position: relative;
     list-style: none; 
     padding: 0;
     margin-top: 9px;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
     letter-spacing: 0.6px;
 }
 .photo__tag {
     display: inline-block;  
 color: #1d1c1c;
-font-family: "Source Serif Roman";
+font-family: 'Source Serif Pro', serif;
 font-size: 12px;
-font-weight: 300;
+font-weight: 400;
 }
 .photo__desc {
 color: #1d1c1c;
-font-family: "Source Serif Roman";
+font-family: 'Source Serif Pro', serif;
 font-size: 18px;
-font-weight: 700;
+font-weight: 600;
 margin: 0;
-line-height: 21px;
-letter-spacing: 0.8px;
+line-height: 22px;
+letter-spacing: 1px;
+word-spacing: -1px;
 }
 
 @media screen and (min-width: 764px) {
@@ -96,9 +97,9 @@ width: 274px;
 height: 51px;
 opacity: 0.6;
 color: #f8f8f8;
-font-family: "Source Serif Roman - Semibold";
+font-family: 'Source Serif Pro', serif;
 font-size: 71px;
-font-weight: 400;
+font-weight: 600;
 text-transform: uppercase;
 letter-spacing: 12.22px;
     }
@@ -226,7 +227,7 @@ letter-spacing: 12.22px;
         &__link {
             opacity: 0.4;
             color: #cb98a8;
-            font-family: "Source Serif Roman";
+            font-family: 'Source Serif Pro', serif;
             font-size: 14px;
             font-weight: 400;
             text-transform: uppercase;

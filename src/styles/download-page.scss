@@ -1,8 +1,9 @@
 .download-page {
     min-width: 320px; 
+    min-height: 388px;
     box-sizing: border-box;
     position: relative;
-    padding-top: 48px;
+    padding-top: 43px;
     padding-bottom: 44px;
     &:before {
         position: absolute;
@@ -10,7 +11,7 @@
         width: 277px;
         height: 388px;
         display: inline-block;
-        top: 3px;
+        top: -2px;
         left: 24px;
         background-image: url(/img/320_download_bg.png);
         background-repeat: no-repeat;
@@ -44,28 +45,36 @@
     }
     .section__title {
         margin-top: 0;
-        margin-bottom: 17px;
+        margin-bottom: 19px;
+        width: 200px;
         display: inline-block;
         color: #ffffff;
-        font-family: "Source Serif Roman - Semibold";
+        text-align: left;
+        font-family: 'Source Serif Pro', serif;
         font-size: 18px;
-        font-weight: 400;
-        letter-spacing: 1.3px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        &:before {
+            display: none;
+        }
     }
     .section__desc {
         line-height: 17px;
         margin-top: 0;
+        width: 200px;
         color: #ffffff;
-        font-family: "Source Serif Roman";
+        font-family: 'Source Serif Pro', serif;
         font-size: 14px;
+        letter-spacing: 0.8px;
         font-weight: 400;
-        margin-bottom: 30px;
+        margin-bottom: 29px;
     }
     .btn {
         margin-left: -6px;
         letter-spacing: -0.6px;
         position: relative;
         width: 146px;
+        word-spacing: 0;
         &--pdf:after {
             content: "";
             display: inline-block;
@@ -73,7 +82,7 @@
             height: 27px;
             position: absolute;
             background: url(/img/icon_pdf.png) no-repeat;
-            right: -30px;
+            right: -35px;
             top: 3px;
         }
     }
@@ -163,9 +172,9 @@ margin-right: 170px;
         }
         .section__title {
 color: #212021;
-font-family: "Source Serif Roman - Semibold";
+font-family: 'Source Serif Pro', serif;
 font-size: 24px;
-font-weight: 400;
+font-weight: 600;
 margin-bottom: 17px;
         }
         .section__desc {

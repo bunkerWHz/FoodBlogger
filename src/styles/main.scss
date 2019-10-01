@@ -1,23 +1,5 @@
-@font-face  {
-   src: url("/fonts/SourceSerifPro-Bold.ttf");
-   font-family: "Source Serif Roman - Bold";
-   font-weight: 400;
-}
-@font-face  {
-   src: url("/fonts/SourceSerifPro-SemiBold.ttf");
-   font-family: "Source Serif Roman - Semibold";
-   font-weight: 400;
-}
-@font-face  {
-   src: url("/fonts/SourceSerifPro-Regular.ttf");
-   font-family: "Source Serif Roman - Regular";
-      font-weight: 400;
-}
-@font-face  {
-    font-family: "Geometria"; 
-   src: url("/fonts/Source\ Serif\ Pro\ ExtraLight.otf");
-   font-family: "Source Serif Roman - Light";
-   font-weight: 400;
+* {
+   box-sizing: border-box;
 }
 .container {
    margin: 0 auto;
