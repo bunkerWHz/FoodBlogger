@@ -153,6 +153,7 @@ margin-right: 170px;
 @media screen and (min-width: 1440px) {
     .download-page {
         position: relative;
+
         .socials--side {
             top: calc(44% - 3px);
         }
@@ -161,12 +162,13 @@ margin-right: 170px;
             flex-direction: row;
             padding-top: 86px;
             height: 520px;
-            background-image:
+           background-color: #fff;
+            background-image: url(/img/1440_download-page_leaf.png),
             url(/img/1440_download_bg-2.png),
            url(/img/1440_download_bg-1.jpg);
-           background-repeat: no-repeat, no-repeat;
-           background-color: #fff;
-           background-position: left 421px top 38px, left 0 top 0;        }
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-position: 93% 125px, 419px 38px, -2px 0;
+  }
         .section__img {
             margin-left: 0;
         }
@@ -174,8 +176,10 @@ margin-right: 170px;
 color: #212021;
 font-family: 'Source Serif Pro', serif;
 font-size: 24px;
+width: 300px;
+letter-spacing: 1.3px;
 font-weight: 600;
-margin-bottom: 17px;
+margin-bottom: 19px;
         }
         .section__desc {
             font-size: 18px;
