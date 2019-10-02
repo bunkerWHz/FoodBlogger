@@ -156,10 +156,22 @@
         position: relative;
         padding-top: 248px;
         padding-bottom: 192px;
+        background-image: url(/img/1440_contacts_leaf-l.png),
+         url(/img/1440_contacts_leaf-r.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 10.2% 250px, 89% 6px;
         .section__title {
             margin-top: 0;
             letter-spacing: 5px;
         margin-bottom: 103px;
+        &:before {
+        left: calc(50% - 6px);
+        }
+        &:after {
+            left: 11%;
+            top: 90px;
+            letter-spacing: 41px;
+        }
         }
     }
    
