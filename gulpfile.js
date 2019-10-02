@@ -24,8 +24,10 @@ require("stylelint")({
   }
  }),
 require("postcss-uncss")({
+ignore: [/\.*--active/],
 html: "./src/index.html",
 css: "./src/*.css"
+
 })
     ];
 

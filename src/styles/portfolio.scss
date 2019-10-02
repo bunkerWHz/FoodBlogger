@@ -73,7 +73,7 @@ word-spacing: -1px;
         url(/img/764_leaf_icon-m.png),
         url(/img/764_leaf_icon-r.png);
         background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: 4px 227px, 460px 183px, 667px 330px;
+        background-position: 0.57% 227px, 460px 183px, 667px 330px;
     }
     .socials--side {
         display: none;
@@ -90,18 +90,16 @@ word-spacing: -1px;
         content: "WORK";
         position: absolute;
         display: inline-block;
-        top: -22px;
+        top: -36px;
         left: 174px;
         z-index: -1;
-width: 274px;
-height: 51px;
-opacity: 0.6;
-color: #f8f8f8;
-font-family: 'Source Serif Pro', serif;
-font-size: 71px;
-font-weight: 600;
-text-transform: uppercase;
-letter-spacing: 12.22px;
+        opacity: 1;
+        color: #f8f8f8;
+        font-family: 'Source Serif Pro', serif;
+        font-size: 71px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 12.22px;
     }
     }
     .portfolio__photos {
@@ -148,6 +146,7 @@ letter-spacing: 12.22px;
             top: -138px;
         }
         &:after {
+            font-size: 108px;
             left: calc(50% - 180px);
         }
     }
