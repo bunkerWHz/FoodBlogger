@@ -153,8 +153,14 @@ word-spacing: -1px;
     .portfolio {
         position: relative;
         padding: 0 166px;
-        padding-top: 276px;
+        padding-top: 278px;
         padding-bottom: 151px;
+
+        background-image: url(/img/1440_portfolio_leaf-l.png),
+        url(/img/1440_portfolio_leaf-m.png),
+        url(/img/1440_portfolio_leaf-r.png);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: 7.5% 252px, 63.2% 211px, 89.8% 388px;
         .paginations {
             align-items: flex-end;
             top: calc(50% + -8px);
